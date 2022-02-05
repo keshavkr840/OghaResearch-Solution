@@ -20,8 +20,8 @@ int main(){
     for(int i=0; i<n; i++){
         char c;
         std::cout<<"press e for enqueue \n
-                  press d for dequeue\n
-                  press p for print"<<"\n";
+                  press d for dequeue \n
+                  press p for print \n";
         scanf(" %c", &c);
         if(c=='e'){
             scanf("%d", &mainArray[currentInputIndex]);
