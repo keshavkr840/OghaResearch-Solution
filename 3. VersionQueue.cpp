@@ -30,7 +30,7 @@ int main(){
             tailArray[currentVersionIndex] = tailArray[currentVersionIndex-1] + 1;
             currentVersionIndex++;
         }else if(c=='d'){
-            if(tailArray[currentVersionIndex] < headArray[currentVersionIndex]){ // Queue is empty
+            if(tailArray[currentVersionIndex] < headArray[currentVersionIndex]){
                 headArray[currentVersionIndex] = headArray[currentVersionIndex-1];
                 tailArray[currentVersionIndex] = tailArray[currentVersionIndex-1];
                 currentVersionIndex++;
